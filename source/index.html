@@ -4,11 +4,168 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Gulp-Template</title>
+	<title>Template</title>
 	<link rel="stylesheet" href="min-css/normalize.min.css">
 	<link rel="stylesheet" href="min-css/style.min.css">
 </head>
 <body>
+	<header class="main-header">
+		<div class="container">
+			<div class="main-header__wrapper">
+				<nav class="main-nav">
+					<ul class="main-nav__list">
+						<li class="main-nav__list-item">
+							<a class="main-nav__link" href="#">Главная</a>
+						</li>
+						<li class="main-nav__list-item">
+							<a class="main-nav__link" href="#">Услуги</a>
+						</li>
+						<li class="main-nav__list-item">
+							<a class="main-nav__link" href="#">Курс</a>
+						</li>
+						<li class="main-nav__list-item">
+							<a class="main-nav__link" href="#">Вебинары</a>
+						</li>
+						<li class="main-nav__list-item main-nav__list-item--active">
+							<a class="main-nav__link" href="#">Отзывы</a>
+						</li>
+					</ul>
+					<a class="main-nav__phone-number" href="tel:+79999999999">
+						+7(999)999-99-99
+					</a>
+					<button class="main-nav__button" type="button">
+						<span class="visually-hidden">
+							Открыть / Закрыть меню
+						</span>
+					</button>
+				</nav>
+				<div class="main-header__inner">
+					<div class="intro-card">
+						<h3 class="intro-card__title">
+							Здесь ты можешь получить
+						</h3>
+						<ul class="intro-card__list">
+							<li class="intro-card__list-item">
+								Подбор программ обучения
+							</li>
+							<li class="intro-card__list-item">
+								Написание и корректировка аппликационных документов
+							</li>
+							<li class="intro-card__list-item">
+								Заполнение анкет на поступление, получение стипендии
+							</li>
+							<li class="intro-card__list-item">
+								Помощь в выборе специальности
+							</li>
+							<li class="intro-card__list-item">
+								Работа над личным брендом и многое другое
+							</li>
+						</ul>
+						<a class="button intro-card__button">Услуги</a>
+					</div>
+					<div class="intro-card intro-card--alternate">
+						<h3 class="intro-card__title">
+							Оставить заявку
+						</h3>
+						<form class="intro-card__form" action="#">
+							<fieldset class="intro-card__fieldset">
+								<legend class="visually-hidden">
+									Оставить заявку
+								</legend>
+								<input class="input-text intro-card__input" type="text" placeholder="Ваше имя">	
+								<input class="input-text intro-card__input" type="phone" placeholder="Ваш номер">	
+								<input class="input-text intro-card__input" type="email" placeholder="Ваш e-mail">	
+							</fieldset>
+						</form>
+						<button class="button button--alternate intro-card__button" type="submit">
+							Отправить
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="site-section section-meet">
+			<div class="container">
+				<div class="section-meet__wrapper">
+					<h2 class="section-title section-meet__title">
+						Давай знакомиться
+					</h2>
+					<div class="section-meet__inner section-meet__inner--intro">
+						<article class="text-content section-meet__text-content">
+							Я - Юлия эксперт в сфере образования.
+							Я выпускница и стипендиантка 11 топовых 
+							университетов, которые разбросаны по всему 
+							земному шару: Европа, Новая Зеландия, 
+							Центральная и Восточная Азия, Южная Америка. 
+							Проработав в течение 5 лет в одном из 
+							лидирующих международных банков Казахстана, 
+							я решила, что я готова к новым вызовам. 
+							К чему это привело:
+						</article>
+					</div>
+					<div class="section-meet__inner section-meet__inner--about">
+						<ul class="section-meet__list">
+							<li class="section-meet__list-item">
+								<p class="text-content">
+									- пройдя все этапы отбора с первого раза, я вошла 
+									в число 7% кандидатов, получивших всемирно 
+									известную стипендию,
+								</p>
+							</li>
+							<li class="section-meet__list-item">
+								<p class="text-content">
+									- параллельно получила более 50% скидки на
+								 	обучение в 2-х топовых университетах 
+									Великобритании,
+								</p>
+							</li>
+							<li class="section-meet__list-item">
+								<p class="text-content">
+									- прошла стажировку в высшем органе
+									 исполнительной власти Европейского Союза,
+								</p>
+							</li>
+							<li class="section-meet__list-item">
+								<p class="text-content">
+									- стажировалась в Великобритании и США,
+								</p>
+							</li>
+							<li class="section-meet__list-item">
+								<p class="text-content">
+									- встретилась с экс-Президентом Эстонии 
+									и Президентом Армении,
+									- получила благодарность от Harvard College 
+									за участие в проекте,
+								</p>
+							</li>
+							<li class="section-meet__list-item">
+								<p class="text-content">
+									- сейчас, имея международную компанию, я 
+									занимаюсь любимым делом и живу в 
+									Великобритании.
+								</p>
+							</li>
+						</ul>
+					</div>
+					<div class="section-meet__inner section-meet__inner--order">
+						<article class="text-content section-meet__text-content">
+							Хочешь как я или еще круче?<br>
+							Тогда скорее к нам<br>
+							Из собственного опыта я знаю насколько время 
+							и энергозатратен процесс поступления 
+							в университет. Особенно, если речь идет 
+							о стипендии. Здесь непременно требуется 
+							методичный подход и грамотно выстроенная 
+							стратегия поступления. Это верные ключи 
+							к твоему успеху!
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
 	<script src="min-js/script.min.js"></script>
 </body>
 </html>
